@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--azul);
+    position: relative;
     
 
 }
@@ -23,5 +24,35 @@
 
 .container__imagem{
     padding: 1em;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.lista-menu__titulo{
+    color: var(--laranja);
+}
+
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--cor-de-fundo);
+}
+
+.lista-menu__link{
+    background: var(--prata-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+
+
+.container__menu:checked~ .lista-menu{
+    display: block;
 }
 
