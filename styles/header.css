@@ -14,7 +14,6 @@
     background-color: var(--azul);
     position: relative;
     
-
 }
 
 .container{
@@ -31,7 +30,6 @@
     position: absolute;
     top: 100%;
     width: 60vw;
-    
 }
 
 .container__botao{
@@ -53,7 +51,6 @@
 
 .lista-menu__link{
     background: var(--prata-degrade);
-
 }
 
 
