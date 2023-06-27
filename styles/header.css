@@ -33,7 +33,7 @@
 }
 
 .container__botao{
-    display: 
+    display: none;
 }
 
 .container__botao:checked~.lista-menu{
