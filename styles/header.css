@@ -26,14 +26,14 @@
 }
 
 .lista-menu{
-    display: none;
+    display: 
     position: absolute;
     top: 100%;
     width: 60vw;
 }
 
 .container__botao{
-    display: none;
+    display: 
 }
 
 .container__botao:checked~.lista-menu{
