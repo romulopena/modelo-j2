@@ -30,6 +30,7 @@
     position: absolute;
     top: 100%;
     width: 60vw;
+    text-decoration: none;
 }
 
 .container__botao{
@@ -51,6 +52,7 @@
 
 .lista-menu__link{
     background: var(--prata-degrade);
+    text-decoration: none;
 }
 
 
@@ -66,3 +68,18 @@
     font-weight: 700;
 }
 
+@media screen and (min-width: 1024px){
+    .container__titulo{
+        
+        display: block;
+        font-family: --fonte-josefin;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .container__titulo--negrito{
+        font-weight: 700;
+    }
+    
+
+}
