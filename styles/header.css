@@ -112,5 +112,15 @@
     .cabecalho__menu-burguer{
         display: none;
     }
+/* Lista checada no tablet*/
+     .opcoes__botao{
+        display: none;
+
+    }
+    .opcoes__botao:checked~.lista-menu{
+        display: block;
+        width: auto;
+    }
+
 
 }
