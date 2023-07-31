@@ -53,6 +53,7 @@
 .lista-menu__link{
     background: var(--prata-degrade);
     text-decoration: none;
+    font-family: var();
 }
 
 
