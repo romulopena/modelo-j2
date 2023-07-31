@@ -1,10 +1,10 @@
 .cabecalho__menu-burguer{
-        width: 24px;
-        height: 24px;
-        background-image: url("../img/Menu.svg");
-        display: inline-block;
-        background-repeat: no-repeat;
-        background-position: center;
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -33,11 +33,11 @@
     text-decoration: none;
 }
 
-.container__botao{
+.input__botao{
     display: none;
 }
 
-.container__botao:checked~.lista-menu{
+.input__botao:checked~.lista-menu{
     display: block;
 }
 
@@ -56,12 +56,11 @@
 }
 
 .lista-menu__link{
-    background: var(--prata-degrade);
+    background: none;
     text-decoration: none;
     font-family: var(--fonte-poppins);
+    color: var(--cor-preto);
 }
-
-
 
 .lista-menu__titulo,.lista-menu__item{
     padding: 1em;
@@ -98,6 +97,7 @@
         font-family: var(--fonte-josefin);
         font-size: 20px;
         font-weight: 400;
+        position: relative;
     }
     .opções__item{
         padding: 0 1em;
@@ -124,6 +124,9 @@
         display: block;
         width: auto;
     }
-
+    .input__botao:checked~.lista-menu{
+        display: block;
+        width:auto;
+    }
 
 }
