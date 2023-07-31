@@ -95,6 +95,9 @@
     .opções{
         display: flex;
         align-items: center;
+        font-family: var(--fonte-josefin);
+        font-size: 20px;
+        font-weight: 400;
     }
     .opções__item{
         padding: 0 1em;
@@ -102,7 +105,7 @@
     }
     .opções__link{
         text-decoration: none;
-        color: var(--preto);
+        color: var(--cor-preto);
     }
 
     .container__imagem-transparente{

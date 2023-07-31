@@ -9,6 +9,7 @@
     --prata-degrade: linear-gradient(#c0c0c0,#8d8b8b,#3a3939);
     --fonte-poppins:"Poppins";
     --fonte-josefin:"Josefin Sans";
+    --cor-preto:#000000;
 }
 body{
     background-color: var(--cor-de-fundo);
