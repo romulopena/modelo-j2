@@ -41,6 +41,11 @@
     display: block;
 }
 
+.container__titulo{
+    font-family: var(--fonte-josefin);
+    display: none;
+}
+
 .lista-menu__titulo{
     color: var(--laranja);
 }
@@ -53,7 +58,7 @@
 .lista-menu__link{
     background: var(--prata-degrade);
     text-decoration: none;
-    font-family: var();
+    font-family: var(--fonte-poppins);
 }
 
 
@@ -73,7 +78,7 @@
     .container__titulo{
         
         display: block;
-        font-family: --fonte-josefin;
+        font-family: var(--fonte-poppins);
         font-size: 30px;
         font-weight: 400;
     }
