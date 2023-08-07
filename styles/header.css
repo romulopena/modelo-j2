@@ -152,6 +152,7 @@
 
     .container__texto{
         display: block;
+        padding:0 1em;
     }
 
 }
